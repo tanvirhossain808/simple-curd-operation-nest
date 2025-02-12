@@ -1,0 +1,36 @@
+### POST request example
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "username": "tanvirhossaina",
+  "email": "tanvir@example.com"
+}
+### get all users
+get http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "username": "tanvirhossain",
+  "email": "tanvir@example.com"
+}
+### get a current user
+get http://localhost:3000/users/67ac7baf10caa360400adbb9
+Content-Type: application/json
+
+
+
+### update user
+PATCH  http://localhost:3000/users/67ac7baf10caa360400adbb9
+Content-Type: application/json
+
+{
+  "username": "tan",
+  "email": "tanvir@example.com"
+}
+
+
+### Delete a user
+DELETE   http://localhost:3000/users/67ac7baf10caa360400adbb9
+
+}
